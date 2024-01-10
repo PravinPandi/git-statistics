@@ -203,7 +203,7 @@ const App = () => {
     ]);
   };
 
-  console.log(chartData, 'chartData');
+  console.log(process.env.REACT_APP_API_TOKEN, 'chartData');
 
   return (
     <Layout>

@@ -7,7 +7,7 @@ export const fetchUser = (query, filter) => {
       { query },
       {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}`,
         },
       }
     )
