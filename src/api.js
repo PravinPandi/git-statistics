@@ -7,7 +7,7 @@ export const fetchUser = (query, filter) => {
       { query },
       {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer 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`,
         },
       }
     )
